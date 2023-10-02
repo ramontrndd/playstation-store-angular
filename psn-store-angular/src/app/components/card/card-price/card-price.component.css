@@ -1,0 +1,32 @@
+.card-pricing__container{
+    background-color: rgba(0, 0, 0, 0.705);
+    bottom: 0px;
+    color: antiquewhite;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    padding: 5px;
+    
+    width: 100%;
+}
+.card-pricing__title{
+    margin-bottom: 3px;
+}
+.card-pricing__value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-pricing__value__console{
+    display: flex;
+    
+}
+.card-pricing__value__console > span{
+    font-weight: bolder;
+    color: aquamarine;
+    margin-right: 5px;
+
+}

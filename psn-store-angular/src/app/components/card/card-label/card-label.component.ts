@@ -6,11 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card-label.component.css']
 })
 export class CardLabelComponent implements OnInit {
-  
-  
-    @Input()  
-    gameLabel:string = ""
 
+  @Input()
+  gameLabel:string =""
+  
   constructor() { }
 
   ngOnInit(): void {
