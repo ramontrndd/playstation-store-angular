@@ -16,5 +16,22 @@
 .menu-bar__item{
     display: flex;
     margin: auto;
+}
+.menu-bar__item > ul {
+    display: flex;
+    list-style: none;
+}
+.menu-bar__item > ul > li{
+    margin-right: 15px;
+    padding: 5px;
+}
+.menu-bar__item > ul > li > a{
+    text-decoration: none;
+    color: black;
     
+    padding: 5px;
+}
+.menu-bar__item > ul > li > a:hover{
+    color: blue;
+    font-weight: 600;
 }
